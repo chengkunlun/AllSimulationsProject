@@ -1,0 +1,20 @@
+//
+//  JFQixin.pch
+//项目详解：http://www.jianshu.com/p/87b9194c4b01
+//源码：   https://github.com/tubie/JFQiXin
+
+#ifndef JFQixin_pch
+#define JFQixin_pch
+
+#import "JFQiXin.h"
+
+#endif
+#ifdef DEBUG
+
+#   define JFLog(fmt, ...) {NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
+#   define ELog(err) {if(err) DLog(@"%@", err)}
+#else
+#   define DLog(...)
+#   define ELog(err)
+
+#endif /* JFQixin_pch */

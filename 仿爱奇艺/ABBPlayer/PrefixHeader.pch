@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  ABBPlayer
+//
+//  Created by beyondsoft-聂小波 on 16/9/21.
+//  Copyright © 2016年 NieXiaobo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "AppDelegate.h"
+#import "WHCNetWorkKit.h"
+#import "UIView+WHC_Toast.h"
+
+#define Screen_height  [[UIScreen mainScreen] bounds].size.height
+#define Screen_width  [[UIScreen mainScreen] bounds].size.width
+
+#define ApplicationDelegate (AppDelegate *)[[UIApplication sharedApplication] delegate]
+#define ReachabilityChangedNotification @"ReachabilityChangedNotification"
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="moreCell" id="KGk-i7-Jjw" customClass="SHMoreViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yV0-72-Wtc">
+                        <rect key="frame" x="10" y="10" width="100" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="fdN-jh-1fj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pdN-LU-dmp">
+                        <rect key="frame" x="260" y="4" width="60" height="36"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="8OP-Ky-Shr"/>
+                            <constraint firstAttribute="height" constant="36" id="Yop-x5-7vn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yV0-72-Wtc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="80x-6q-n2e"/>
+                    <constraint firstAttribute="trailing" secondItem="pdN-LU-dmp" secondAttribute="trailing" id="B91-WI-2Dt"/>
+                    <constraint firstItem="pdN-LU-dmp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="N35-Hp-VBC"/>
+                    <constraint firstItem="yV0-72-Wtc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="SIS-kz-MgJ"/>
+                    <constraint firstItem="yV0-72-Wtc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="SSA-MK-2q2"/>
+                    <constraint firstAttribute="bottom" secondItem="yV0-72-Wtc" secondAttribute="bottom" constant="10" id="VO1-Tp-efg"/>
+                    <constraint firstItem="yV0-72-Wtc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="k1S-vD-U3y"/>
+                    <constraint firstAttribute="bottom" secondItem="yV0-72-Wtc" secondAttribute="bottom" constant="4" id="x8H-1r-gnn"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="SIS-kz-MgJ"/>
+                        <exclude reference="k1S-vD-U3y"/>
+                        <exclude reference="x8H-1r-gnn"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="switchView" destination="pdN-LU-dmp" id="k15-HJ-w0J"/>
+                <outlet property="titileLabel" destination="yV0-72-Wtc" id="q5O-Tu-cOc"/>
+            </connections>
+            <point key="canvasLocation" x="334" y="279"/>
+        </tableViewCell>
+    </objects>
+</document>

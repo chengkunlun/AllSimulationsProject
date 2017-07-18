@@ -1,0 +1,6 @@
+target 'ABBPlayer' do
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'FDFullscreenPopGesture'
+pod 'WHCNetWorkKit'
+end

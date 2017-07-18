@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5076AABDC2EE2EFC64A76DE0 /* libPods-ABBPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E74282A60EDA5831D645F0 /* libPods-ABBPlayer.a */; };
+		F540E4A91D9126D100D26CBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F540E4A81D9126D100D26CBF /* main.m */; };
+		F540E4AC1D9126D100D26CBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F540E4AB1D9126D100D26CBF /* AppDelegate.m */; };
+		F540E4B21D9126D100D26CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F540E4B01D9126D100D26CBF /* Main.storyboard */; };
+		F540E4B41D9126D100D26CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F540E4B31D9126D100D26CBF /* Assets.xcassets */; };
+		F540E4B71D9126D100D26CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F540E4B51D9126D100D26CBF /* LaunchScreen.storyboard */; };
+		F540E4C21D9126D100D26CBF /* ABBPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F540E4C11D9126D100D26CBF /* ABBPlayerTests.m */; };
+		F540E4CD1D9126D100D26CBF /* ABBPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F540E4CC1D9126D100D26CBF /* ABBPlayerUITests.m */; };
+		F540E4EC1D912A4200D26CBF /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = F540E4E11D912A4200D26CBF /* ASValuePopUpView.m */; };
+		F540E4ED1D912A4200D26CBF /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F540E4E31D912A4200D26CBF /* ASValueTrackingSlider.m */; };
+		F540E4EE1D912A4200D26CBF /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = F540E4E51D912A4200D26CBF /* ZFBrightnessView.m */; };
+		F540E4EF1D912A4200D26CBF /* ZFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F540E4E61D912A4200D26CBF /* ZFPlayer.bundle */; };
+		F540E4F01D912A4200D26CBF /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = F540E4E91D912A4200D26CBF /* ZFPlayerControlView.m */; };
+		F540E4F11D912A4200D26CBF /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F540E4EB1D912A4200D26CBF /* ZFPlayerView.m */; };
+		F5A6373C1D91311300F23028 /* VideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637321D91311300F23028 /* VideoListViewController.m */; };
+		F5A6373D1D91311300F23028 /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = F5A637341D91311300F23028 /* videoData.json */; };
+		F5A6373E1D91311300F23028 /* ZFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637361D91311300F23028 /* ZFPlayerModel.m */; };
+		F5A6373F1D91311300F23028 /* ZFPlyerResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637381D91311300F23028 /* ZFPlyerResolution.m */; };
+		F5A637401D91311300F23028 /* ZFPlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A6373B1D91311300F23028 /* ZFPlayerCell.m */; };
+		F5A637C11D9136C400F23028 /* DownLoadListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637B71D9136C400F23028 /* DownLoadListCell.m */; };
+		F5A637C21D9136C400F23028 /* DownLoadListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A637B81D9136C400F23028 /* DownLoadListCell.xib */; };
+		F5A637C31D9136C400F23028 /* WHC_DownloadObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637BB1D9136C400F23028 /* WHC_DownloadObject.m */; };
+		F5A637C41D9136C400F23028 /* DownLoadListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637BE1D9136C400F23028 /* DownLoadListViewController.m */; };
+		F5A637C51D9136C400F23028 /* TableBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637C01D9136C400F23028 /* TableBaseViewController.m */; };
+		F5A637CF1D9137B300F23028 /* UIScrollView+WHC_PullRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637C81D9137B300F23028 /* UIScrollView+WHC_PullRefresh.m */; };
+		F5A637D01D9137B300F23028 /* UIView+WHC_Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637CA1D9137B300F23028 /* UIView+WHC_Loading.m */; };
+		F5A637D11D9137B300F23028 /* UIView+WHC_Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637CC1D9137B300F23028 /* UIView+WHC_Toast.m */; };
+		F5A637D21D9137B300F23028 /* UIView+WHC_ViewProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637CE1D9137B300F23028 /* UIView+WHC_ViewProperty.m */; };
+		F5A637D61D91389500F23028 /* MoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637D51D91389500F23028 /* MoviePlayerViewController.m */; };
+		F5A637D81D913BC600F23028 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A637D71D913BC600F23028 /* libsqlite3.tbd */; };
+		F5A637DB1D91410A00F23028 /* DownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637DA1D91410A00F23028 /* DownloadModel.m */; };
+		F5A637DD1D915FDA00F23028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A637DC1D915FDA00F23028 /* Foundation.framework */; };
+		F5A637E01D92243700F23028 /* MessageBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A637DF1D92243700F23028 /* MessageBaseViewController.m */; };
+		F5A637E21D9225C000F23028 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A637E11D9225C000F23028 /* libc++.tbd */; };
+		F5A637E41D9225C900F23028 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A637E31D9225C900F23028 /* libz.tbd */; };
+		F5A637E61D9227C800F23028 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A637E51D9227C800F23028 /* AVFoundation.framework */; };
+		F5A637E81D92291A00F23028 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A637E71D92291A00F23028 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F540E4BE1D9126D100D26CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F540E49C1D9126D100D26CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F540E4A31D9126D100D26CBF;
+			remoteInfo = ABBPlayer;
+		};
+		F540E4C91D9126D100D26CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F540E49C1D9126D100D26CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F540E4A31D9126D100D26CBF;
+			remoteInfo = ABBPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1631F6C5BE4B7DDD56DFBA0B /* Pods-ABBPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABBPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ABBPlayer/Pods-ABBPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		52E74282A60EDA5831D645F0 /* libPods-ABBPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABBPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F540E4A41D9126D100D26CBF /* ABBPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABBPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F540E4A81D9126D100D26CBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F540E4AA1D9126D100D26CBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F540E4AB1D9126D100D26CBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F540E4B11D9126D100D26CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F540E4B31D9126D100D26CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F540E4B61D9126D100D26CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F540E4B81D9126D100D26CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F540E4BD1D9126D100D26CBF /* ABBPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABBPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F540E4C11D9126D100D26CBF /* ABBPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABBPlayerTests.m; sourceTree = "<group>"; };
+		F540E4C31D9126D100D26CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F540E4C81D9126D100D26CBF /* ABBPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABBPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F540E4CC1D9126D100D26CBF /* ABBPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABBPlayerUITests.m; sourceTree = "<group>"; };
+		F540E4CE1D9126D100D26CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F540E4E01D912A4200D26CBF /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		F540E4E11D912A4200D26CBF /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		F540E4E21D912A4200D26CBF /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		F540E4E31D912A4200D26CBF /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		F540E4E41D912A4200D26CBF /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
+		F540E4E51D912A4200D26CBF /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
+		F540E4E61D912A4200D26CBF /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
+		F540E4E71D912A4200D26CBF /* ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayer.h; sourceTree = "<group>"; };
+		F540E4E81D912A4200D26CBF /* ZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlView.h; sourceTree = "<group>"; };
+		F540E4E91D912A4200D26CBF /* ZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerControlView.m; sourceTree = "<group>"; };
+		F540E4EA1D912A4200D26CBF /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
+		F540E4EB1D912A4200D26CBF /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
+		F5A637311D91311300F23028 /* VideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoListViewController.h; sourceTree = "<group>"; };
+		F5A637321D91311300F23028 /* VideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoListViewController.m; sourceTree = "<group>"; };
+		F5A637341D91311300F23028 /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videoData.json; sourceTree = "<group>"; };
+		F5A637351D91311300F23028 /* ZFPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerModel.h; sourceTree = "<group>"; };
+		F5A637361D91311300F23028 /* ZFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerModel.m; sourceTree = "<group>"; };
+		F5A637371D91311300F23028 /* ZFPlyerResolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlyerResolution.h; sourceTree = "<group>"; };
+		F5A637381D91311300F23028 /* ZFPlyerResolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlyerResolution.m; sourceTree = "<group>"; };
+		F5A6373A1D91311300F23028 /* ZFPlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerCell.h; sourceTree = "<group>"; };
+		F5A6373B1D91311300F23028 /* ZFPlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerCell.m; sourceTree = "<group>"; };
+		F5A637B61D9136C400F23028 /* DownLoadListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadListCell.h; sourceTree = "<group>"; };
+		F5A637B71D9136C400F23028 /* DownLoadListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadListCell.m; sourceTree = "<group>"; };
+		F5A637B81D9136C400F23028 /* DownLoadListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownLoadListCell.xib; sourceTree = "<group>"; };
+		F5A637BA1D9136C400F23028 /* WHC_DownloadObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_DownloadObject.h; sourceTree = "<group>"; };
+		F5A637BB1D9136C400F23028 /* WHC_DownloadObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_DownloadObject.m; sourceTree = "<group>"; };
+		F5A637BD1D9136C400F23028 /* DownLoadListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadListViewController.h; sourceTree = "<group>"; };
+		F5A637BE1D9136C400F23028 /* DownLoadListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadListViewController.m; sourceTree = "<group>"; };
+		F5A637BF1D9136C400F23028 /* TableBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableBaseViewController.h; sourceTree = "<group>"; };
+		F5A637C01D9136C400F23028 /* TableBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableBaseViewController.m; sourceTree = "<group>"; };
+		F5A637C71D9137B300F23028 /* UIScrollView+WHC_PullRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+WHC_PullRefresh.h"; sourceTree = "<group>"; };
+		F5A637C81D9137B300F23028 /* UIScrollView+WHC_PullRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WHC_PullRefresh.m"; sourceTree = "<group>"; };
+		F5A637C91D9137B300F23028 /* UIView+WHC_Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WHC_Loading.h"; sourceTree = "<group>"; };
+		F5A637CA1D9137B300F23028 /* UIView+WHC_Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WHC_Loading.m"; sourceTree = "<group>"; };
+		F5A637CB1D9137B300F23028 /* UIView+WHC_Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WHC_Toast.h"; sourceTree = "<group>"; };
+		F5A637CC1D9137B300F23028 /* UIView+WHC_Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WHC_Toast.m"; sourceTree = "<group>"; };
+		F5A637CD1D9137B300F23028 /* UIView+WHC_ViewProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WHC_ViewProperty.h"; sourceTree = "<group>"; };
+		F5A637CE1D9137B300F23028 /* UIView+WHC_ViewProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WHC_ViewProperty.m"; sourceTree = "<group>"; };
+		F5A637D41D91389500F23028 /* MoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayerViewController.h; sourceTree = "<group>"; };
+		F5A637D51D91389500F23028 /* MoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerViewController.m; sourceTree = "<group>"; };
+		F5A637D71D913BC600F23028 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F5A637D91D91410A00F23028 /* DownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadModel.h; sourceTree = "<group>"; };
+		F5A637DA1D91410A00F23028 /* DownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadModel.m; sourceTree = "<group>"; };
+		F5A637DC1D915FDA00F23028 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5A637DE1D92243700F23028 /* MessageBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageBaseViewController.h; sourceTree = "<group>"; };
+		F5A637DF1D92243700F23028 /* MessageBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageBaseViewController.m; sourceTree = "<group>"; };
+		F5A637E11D9225C000F23028 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F5A637E31D9225C900F23028 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F5A637E51D9227C800F23028 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F5A637E71D92291A00F23028 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F5A637E91D92410800F23028 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F70739D382F3089AFB5B725F /* Pods-ABBPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABBPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ABBPlayer/Pods-ABBPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F540E4A11D9126D100D26CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A637E81D92291A00F23028 /* MediaPlayer.framework in Frameworks */,
+				F5A637E61D9227C800F23028 /* AVFoundation.framework in Frameworks */,
+				F5A637E41D9225C900F23028 /* libz.tbd in Frameworks */,
+				F5A637E21D9225C000F23028 /* libc++.tbd in Frameworks */,
+				F5A637DD1D915FDA00F23028 /* Foundation.framework in Frameworks */,
+				F5A637D81D913BC600F23028 /* libsqlite3.tbd in Frameworks */,
+				5076AABDC2EE2EFC64A76DE0 /* libPods-ABBPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F540E4BA1D9126D100D26CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F540E4C51D9126D100D26CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AAD0BFB955FD4E4825B51BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F70739D382F3089AFB5B725F /* Pods-ABBPlayer.debug.xcconfig */,
+				1631F6C5BE4B7DDD56DFBA0B /* Pods-ABBPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC4C6481146FA2F824A3742D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637E71D92291A00F23028 /* MediaPlayer.framework */,
+				F5A637E51D9227C800F23028 /* AVFoundation.framework */,
+				F5A637E31D9225C900F23028 /* libz.tbd */,
+				F5A637E11D9225C000F23028 /* libc++.tbd */,
+				F5A637DC1D915FDA00F23028 /* Foundation.framework */,
+				F5A637D71D913BC600F23028 /* libsqlite3.tbd */,
+				52E74282A60EDA5831D645F0 /* libPods-ABBPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F540E49B1D9126D100D26CBF = {
+			isa = PBXGroup;
+			children = (
+				F540E4A61D9126D100D26CBF /* ABBPlayer */,
+				F540E4C01D9126D100D26CBF /* ABBPlayerTests */,
+				F540E4CB1D9126D100D26CBF /* ABBPlayerUITests */,
+				F540E4A51D9126D100D26CBF /* Products */,
+				5AAD0BFB955FD4E4825B51BE /* Pods */,
+				EC4C6481146FA2F824A3742D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F540E4A51D9126D100D26CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F540E4A41D9126D100D26CBF /* ABBPlayer.app */,
+				F540E4BD1D9126D100D26CBF /* ABBPlayerTests.xctest */,
+				F540E4C81D9126D100D26CBF /* ABBPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F540E4A61D9126D100D26CBF /* ABBPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637E91D92410800F23028 /* PrefixHeader.pch */,
+				F540E4DA1D91298F00D26CBF /* ThirdPart */,
+				F540E4DB1D91298F00D26CBF /* ViewController */,
+				F540E4A71D9126D100D26CBF /* Supporting Files */,
+			);
+			path = ABBPlayer;
+			sourceTree = "<group>";
+		};
+		F540E4A71D9126D100D26CBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F540E4AA1D9126D100D26CBF /* AppDelegate.h */,
+				F540E4AB1D9126D100D26CBF /* AppDelegate.m */,
+				F540E4B01D9126D100D26CBF /* Main.storyboard */,
+				F540E4B31D9126D100D26CBF /* Assets.xcassets */,
+				F540E4B51D9126D100D26CBF /* LaunchScreen.storyboard */,
+				F540E4B81D9126D100D26CBF /* Info.plist */,
+				F540E4A81D9126D100D26CBF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F540E4C01D9126D100D26CBF /* ABBPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F540E4C11D9126D100D26CBF /* ABBPlayerTests.m */,
+				F540E4C31D9126D100D26CBF /* Info.plist */,
+			);
+			path = ABBPlayerTests;
+			sourceTree = "<group>";
+		};
+		F540E4CB1D9126D100D26CBF /* ABBPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F540E4CC1D9126D100D26CBF /* ABBPlayerUITests.m */,
+				F540E4CE1D9126D100D26CBF /* Info.plist */,
+			);
+			path = ABBPlayerUITests;
+			sourceTree = "<group>";
+		};
+		F540E4DA1D91298F00D26CBF /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637C61D9137B300F23028 /* UIUnitCore */,
+				F540E4DF1D912A4200D26CBF /* ZFPlayer */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		F540E4DB1D91298F00D26CBF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637D31D91388A00F23028 /* MoviePlayerVC */,
+				F5A637B41D9136C400F23028 /* DownLoadVC */,
+				F5A6372F1D91311300F23028 /* TbaleViewVideo */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F540E4DF1D912A4200D26CBF /* ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F540E4E01D912A4200D26CBF /* ASValuePopUpView.h */,
+				F540E4E11D912A4200D26CBF /* ASValuePopUpView.m */,
+				F540E4E21D912A4200D26CBF /* ASValueTrackingSlider.h */,
+				F540E4E31D912A4200D26CBF /* ASValueTrackingSlider.m */,
+				F540E4E41D912A4200D26CBF /* ZFBrightnessView.h */,
+				F540E4E51D912A4200D26CBF /* ZFBrightnessView.m */,
+				F540E4E61D912A4200D26CBF /* ZFPlayer.bundle */,
+				F540E4E71D912A4200D26CBF /* ZFPlayer.h */,
+				F540E4E81D912A4200D26CBF /* ZFPlayerControlView.h */,
+				F540E4E91D912A4200D26CBF /* ZFPlayerControlView.m */,
+				F540E4EA1D912A4200D26CBF /* ZFPlayerView.h */,
+				F540E4EB1D912A4200D26CBF /* ZFPlayerView.m */,
+			);
+			path = ZFPlayer;
+			sourceTree = "<group>";
+		};
+		F5A6372F1D91311300F23028 /* TbaleViewVideo */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637301D91311300F23028 /* Controller */,
+				F5A637331D91311300F23028 /* Model */,
+				F5A637391D91311300F23028 /* View */,
+			);
+			path = TbaleViewVideo;
+			sourceTree = "<group>";
+		};
+		F5A637301D91311300F23028 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637311D91311300F23028 /* VideoListViewController.h */,
+				F5A637321D91311300F23028 /* VideoListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F5A637331D91311300F23028 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637341D91311300F23028 /* videoData.json */,
+				F5A637351D91311300F23028 /* ZFPlayerModel.h */,
+				F5A637361D91311300F23028 /* ZFPlayerModel.m */,
+				F5A637371D91311300F23028 /* ZFPlyerResolution.h */,
+				F5A637381D91311300F23028 /* ZFPlyerResolution.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5A637391D91311300F23028 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5A6373A1D91311300F23028 /* ZFPlayerCell.h */,
+				F5A6373B1D91311300F23028 /* ZFPlayerCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5A637B41D9136C400F23028 /* DownLoadVC */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637B51D9136C400F23028 /* Cell */,
+				F5A637B91D9136C400F23028 /* model */,
+				F5A637BC1D9136C400F23028 /* VC */,
+			);
+			path = DownLoadVC;
+			sourceTree = "<group>";
+		};
+		F5A637B51D9136C400F23028 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637B61D9136C400F23028 /* DownLoadListCell.h */,
+				F5A637B71D9136C400F23028 /* DownLoadListCell.m */,
+				F5A637B81D9136C400F23028 /* DownLoadListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F5A637B91D9136C400F23028 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637BA1D9136C400F23028 /* WHC_DownloadObject.h */,
+				F5A637BB1D9136C400F23028 /* WHC_DownloadObject.m */,
+				F5A637D91D91410A00F23028 /* DownloadModel.h */,
+				F5A637DA1D91410A00F23028 /* DownloadModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F5A637BC1D9136C400F23028 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637BD1D9136C400F23028 /* DownLoadListViewController.h */,
+				F5A637BE1D9136C400F23028 /* DownLoadListViewController.m */,
+				F5A637BF1D9136C400F23028 /* TableBaseViewController.h */,
+				F5A637C01D9136C400F23028 /* TableBaseViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		F5A637C61D9137B300F23028 /* UIUnitCore */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637C71D9137B300F23028 /* UIScrollView+WHC_PullRefresh.h */,
+				F5A637C81D9137B300F23028 /* UIScrollView+WHC_PullRefresh.m */,
+				F5A637C91D9137B300F23028 /* UIView+WHC_Loading.h */,
+				F5A637CA1D9137B300F23028 /* UIView+WHC_Loading.m */,
+				F5A637CB1D9137B300F23028 /* UIView+WHC_Toast.h */,
+				F5A637CC1D9137B300F23028 /* UIView+WHC_Toast.m */,
+				F5A637CD1D9137B300F23028 /* UIView+WHC_ViewProperty.h */,
+				F5A637CE1D9137B300F23028 /* UIView+WHC_ViewProperty.m */,
+			);
+			path = UIUnitCore;
+			sourceTree = "<group>";
+		};
+		F5A637D31D91388A00F23028 /* MoviePlayerVC */ = {
+			isa = PBXGroup;
+			children = (
+				F5A637D41D91389500F23028 /* MoviePlayerViewController.h */,
+				F5A637D51D91389500F23028 /* MoviePlayerViewController.m */,
+				F5A637DE1D92243700F23028 /* MessageBaseViewController.h */,
+				F5A637DF1D92243700F23028 /* MessageBaseViewController.m */,
+			);
+			path = MoviePlayerVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F540E4A31D9126D100D26CBF /* ABBPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F540E4D11D9126D100D26CBF /* Build configuration list for PBXNativeTarget "ABBPlayer" */;
+			buildPhases = (
+				DAB2E0DB0B466A15901C57CC /* Check Pods Manifest.lock */,
+				F540E4A01D9126D100D26CBF /* Sources */,
+				F540E4A11D9126D100D26CBF /* Frameworks */,
+				F540E4A21D9126D100D26CBF /* Resources */,
+				B8605B5711C4313A042F3CD7 /* Embed Pods Frameworks */,
+				0BF0FFFD8FFFC58207FD7820 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABBPlayer;
+			productName = ABBPlayer;
+			productReference = F540E4A41D9126D100D26CBF /* ABBPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F540E4BC1D9126D100D26CBF /* ABBPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F540E4D41D9126D100D26CBF /* Build configuration list for PBXNativeTarget "ABBPlayerTests" */;
+			buildPhases = (
+				F540E4B91D9126D100D26CBF /* Sources */,
+				F540E4BA1D9126D100D26CBF /* Frameworks */,
+				F540E4BB1D9126D100D26CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F540E4BF1D9126D100D26CBF /* PBXTargetDependency */,
+			);
+			name = ABBPlayerTests;
+			productName = ABBPlayerTests;
+			productReference = F540E4BD1D9126D100D26CBF /* ABBPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F540E4C71D9126D100D26CBF /* ABBPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F540E4D71D9126D100D26CBF /* Build configuration list for PBXNativeTarget "ABBPlayerUITests" */;
+			buildPhases = (
+				F540E4C41D9126D100D26CBF /* Sources */,
+				F540E4C51D9126D100D26CBF /* Frameworks */,
+				F540E4C61D9126D100D26CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F540E4CA1D9126D100D26CBF /* PBXTargetDependency */,
+			);
+			name = ABBPlayerUITests;
+			productName = ABBPlayerUITests;
+			productReference = F540E4C81D9126D100D26CBF /* ABBPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F540E49C1D9126D100D26CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NieXiaobo;
+				TargetAttributes = {
+					F540E4A31D9126D100D26CBF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 968Q63C2Z7;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					F540E4BC1D9126D100D26CBF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F540E4A31D9126D100D26CBF;
+					};
+					F540E4C71D9126D100D26CBF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F540E4A31D9126D100D26CBF;
+					};
+				};
+			};
+			buildConfigurationList = F540E49F1D9126D100D26CBF /* Build configuration list for PBXProject "ABBPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F540E49B1D9126D100D26CBF;
+			productRefGroup = F540E4A51D9126D100D26CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F540E4A31D9126D100D26CBF /* ABBPlayer */,
+				F540E4BC1D9126D100D26CBF /* ABBPlayerTests */,
+				F540E4C71D9126D100D26CBF /* ABBPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F540E4A21D9126D100D26CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A637C21D9136C400F23028 /* DownLoadListCell.xib in Resources */,
+				F540E4EF1D912A4200D26CBF /* ZFPlayer.bundle in Resources */,
+				F540E4B71D9126D100D26CBF /* LaunchScreen.storyboard in Resources */,
+				F540E4B41D9126D100D26CBF /* Assets.xcassets in Resources */,
+				F5A6373D1D91311300F23028 /* videoData.json in Resources */,
+				F540E4B21D9126D100D26CBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F540E4BB1D9126D100D26CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F540E4C61D9126D100D26CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF0FFFD8FFFC58207FD7820 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ABBPlayer/Pods-ABBPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8605B5711C4313A042F3CD7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ABBPlayer/Pods-ABBPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAB2E0DB0B466A15901C57CC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F540E4A01D9126D100D26CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A637CF1D9137B300F23028 /* UIScrollView+WHC_PullRefresh.m in Sources */,
+				F540E4F01D912A4200D26CBF /* ZFPlayerControlView.m in Sources */,
+				F540E4EC1D912A4200D26CBF /* ASValuePopUpView.m in Sources */,
+				F5A637D11D9137B300F23028 /* UIView+WHC_Toast.m in Sources */,
+				F5A637C51D9136C400F23028 /* TableBaseViewController.m in Sources */,
+				F5A637D01D9137B300F23028 /* UIView+WHC_Loading.m in Sources */,
+				F540E4AC1D9126D100D26CBF /* AppDelegate.m in Sources */,
+				F540E4A91D9126D100D26CBF /* main.m in Sources */,
+				F5A637E01D92243700F23028 /* MessageBaseViewController.m in Sources */,
+				F5A637C11D9136C400F23028 /* DownLoadListCell.m in Sources */,
+				F540E4F11D912A4200D26CBF /* ZFPlayerView.m in Sources */,
+				F5A637C31D9136C400F23028 /* WHC_DownloadObject.m in Sources */,
+				F540E4EE1D912A4200D26CBF /* ZFBrightnessView.m in Sources */,
+				F5A6373F1D91311300F23028 /* ZFPlyerResolution.m in Sources */,
+				F5A637C41D9136C400F23028 /* DownLoadListViewController.m in Sources */,
+				F5A637DB1D91410A00F23028 /* DownloadModel.m in Sources */,
+				F5A637401D91311300F23028 /* ZFPlayerCell.m in Sources */,
+				F5A6373C1D91311300F23028 /* VideoListViewController.m in Sources */,
+				F5A637D61D91389500F23028 /* MoviePlayerViewController.m in Sources */,
+				F5A6373E1D91311300F23028 /* ZFPlayerModel.m in Sources */,
+				F540E4ED1D912A4200D26CBF /* ASValueTrackingSlider.m in Sources */,
+				F5A637D21D9137B300F23028 /* UIView+WHC_ViewProperty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F540E4B91D9126D100D26CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F540E4C21D9126D100D26CBF /* ABBPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F540E4C41D9126D100D26CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F540E4CD1D9126D100D26CBF /* ABBPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F540E4BF1D9126D100D26CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F540E4A31D9126D100D26CBF /* ABBPlayer */;
+			targetProxy = F540E4BE1D9126D100D26CBF /* PBXContainerItemProxy */;
+		};
+		F540E4CA1D9126D100D26CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F540E4A31D9126D100D26CBF /* ABBPlayer */;
+			targetProxy = F540E4C91D9126D100D26CBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F540E4B01D9126D100D26CBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F540E4B11D9126D100D26CBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F540E4B51D9126D100D26CBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F540E4B61D9126D100D26CBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F540E4CF1D9126D100D26CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F540E4D01D9126D100D26CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F540E4D21D9126D100D26CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70739D382F3089AFB5B725F /* Pods-ABBPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 968Q63C2Z7;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = ABBPlayer/PrefixHeader.pch;
+				INFOPLIST_FILE = ABBPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WHC.WHCNetWorkKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F540E4D31D9126D100D26CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1631F6C5BE4B7DDD56DFBA0B /* Pods-ABBPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 968Q63C2Z7;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = ABBPlayer/PrefixHeader.pch;
+				INFOPLIST_FILE = ABBPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WHC.WHCNetWorkKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F540E4D51D9126D100D26CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ABBPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NXB.ABBPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABBPlayer.app/ABBPlayer";
+			};
+			name = Debug;
+		};
+		F540E4D61D9126D100D26CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ABBPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NXB.ABBPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABBPlayer.app/ABBPlayer";
+			};
+			name = Release;
+		};
+		F540E4D81D9126D100D26CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ABBPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NXB.ABBPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ABBPlayer;
+			};
+			name = Debug;
+		};
+		F540E4D91D9126D100D26CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ABBPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NXB.ABBPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ABBPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F540E49F1D9126D100D26CBF /* Build configuration list for PBXProject "ABBPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F540E4CF1D9126D100D26CBF /* Debug */,
+				F540E4D01D9126D100D26CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F540E4D11D9126D100D26CBF /* Build configuration list for PBXNativeTarget "ABBPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F540E4D21D9126D100D26CBF /* Debug */,
+				F540E4D31D9126D100D26CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F540E4D41D9126D100D26CBF /* Build configuration list for PBXNativeTarget "ABBPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F540E4D51D9126D100D26CBF /* Debug */,
+				F540E4D61D9126D100D26CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F540E4D71D9126D100D26CBF /* Build configuration list for PBXNativeTarget "ABBPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F540E4D81D9126D100D26CBF /* Debug */,
+				F540E4D91D9126D100D26CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F540E49C1D9126D100D26CBF /* Project object */;
+}
