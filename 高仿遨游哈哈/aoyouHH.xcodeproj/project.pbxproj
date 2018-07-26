@@ -596,9 +596,6 @@
 			children = (
 				E36237CB1B0DAD0600570A4C /* chuanke */,
 				E3D781BF1AE7A17E00EDC81F /* Home */,
-				E3D781BE1AE7A17E00EDC81F /* Discover */,
-				E3D781C01AE7A17E00EDC81F /* Me */,
-				E3D781C11AE7A17E00EDC81F /* Message */,
 				E3C3D5601AF0898D0055A0DD /* UserModel.h */,
 				E3C3D5611AF0898D0055A0DD /* UserModel.m */,
 			);
@@ -848,7 +845,6 @@
 				E3D781AE1AE6208100EDC81F /* Home */,
 				E3D781AD1AE6208100EDC81F /* Discover */,
 				E3D781AF1AE6208100EDC81F /* Me */,
-				E3D781B01AE6208100EDC81F /* Message */,
 				E3D781D01AE8BB6300EDC81F /* CustomCell.h */,
 				E3D781D11AE8BB6300EDC81F /* CustomCell.m */,
 				E3D781D21AE8BB6300EDC81F /* CustomCell.xib */,
@@ -891,20 +887,6 @@
 			path = Me;
 			sourceTree = "<group>";
 		};
-		E3D781B01AE6208100EDC81F /* Message */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Message;
-			sourceTree = "<group>";
-		};
-		E3D781BE1AE7A17E00EDC81F /* Discover */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Discover;
-			sourceTree = "<group>";
-		};
 		E3D781BF1AE7A17E00EDC81F /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -918,20 +900,6 @@
 				E3C3D5951AF7472B0055A0DD /* CommentModel.m */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		E3D781C01AE7A17E00EDC81F /* Me */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Me;
-			sourceTree = "<group>";
-		};
-		E3D781C11AE7A17E00EDC81F /* Message */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Message;
 			sourceTree = "<group>";
 		};
 		E3D781D51AE8BC0000EDC81F /* home */ = {
@@ -1003,7 +971,7 @@
 				TargetAttributes = {
 					E389BCE71AE4DA1B00EA35B7 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = 9J73NMA6BJ;
+						DevelopmentTeam = P83R7NS33U;
 					};
 					E389BD001AE4DA1B00EA35B7 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -1335,6 +1303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P83R7NS33U;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/aoyouHH/PrefixHeader.pch";
 				INFOPLIST_FILE = aoyouHH/Info.plist;
@@ -1406,6 +1375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = P83R7NS33U;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/aoyouHH/PrefixHeader.pch";
 				INFOPLIST_FILE = aoyouHH/Info.plist;

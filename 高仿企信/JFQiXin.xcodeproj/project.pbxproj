@@ -4118,7 +4118,7 @@
 				TargetAttributes = {
 					7DDF13BC1BD91261001F78A7 = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 968Q63C2Z7;
+						DevelopmentTeam = P83R7NS33U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -5416,7 +5416,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Kun Xu (6JZ34F3JZ3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 968Q63C2Z7;
+				DEVELOPMENT_TEAM = P83R7NS33U;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JFQiXin/Other/PublicClass/JFQixin.pch";
@@ -5437,7 +5437,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Kun Xu (6JZ34F3JZ3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 968Q63C2Z7;
+				DEVELOPMENT_TEAM = P83R7NS33U;
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JFQiXin/Other/PublicClass/JFQixin.pch";

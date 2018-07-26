@@ -1751,7 +1751,7 @@
 				TargetAttributes = {
 					9BFB65331B2A8D40000EEB7B = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = 968Q63C2Z7;
+						DevelopmentTeam = P83R7NS33U;
 					};
 					9BFB654C1B2A8D40000EEB7B = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -2202,7 +2202,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 968Q63C2Z7;
+				DEVELOPMENT_TEAM = P83R7NS33U;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "jdmobile/jdmobile-Prefix.pch";
 				INFOPLIST_FILE = jdmobile/Info.plist;
@@ -2221,7 +2221,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 968Q63C2Z7;
+				DEVELOPMENT_TEAM = P83R7NS33U;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "jdmobile/jdmobile-Prefix.pch";
 				INFOPLIST_FILE = jdmobile/Info.plist;

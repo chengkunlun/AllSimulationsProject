@@ -92,7 +92,7 @@ NSString *const AttentionCellIndentifier2 = @"myAttentionCell";
         [self performSelectorOnMainThread:@selector(reloadTable) withObject:nil waitUntilDone:YES];
     } failureBlock:^(NSString *error){
         [self performSelectorOnMainThread:@selector(reloadTable) withObject:nil waitUntilDone:YES];
-        NSLog(error);
+//        NSLog(error);
     }];
 }
 
